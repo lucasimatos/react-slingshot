@@ -184,6 +184,8 @@
       "jquery": true,
       "jest": true
     },
-    "globals": {}
+    "globals": {
+      "cy": true
+    }
   }
 }

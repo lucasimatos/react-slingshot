@@ -67,7 +67,7 @@ describe("Fuel Savings:", () => {
         cy.get('.fuel-savings-label').contains('td' , 'Loss')     
     })
 
-    it.only("Changes the miles driven period", () =>{
+    it("Changes the miles driven period", () =>{
         cy.visit('/fuel-savings')
         cy.get('select[name="milesDrivenTimeframe"]').select('Week')
         cy.get('select[name="milesDrivenTimeframe"]').select('Month')
